@@ -1,0 +1,11 @@
+commit b67e42759501f9f95cc2f57649585b7c74a359dd
+Author: MaximGitUser <max5good@mail.ru>
+Date:   Sat Feb 15 13:06:11 2020 +0300
+
+    add status.txt
+
+commit 8f0271550b231b299df5ecc34b3fdf02a1173123
+Author: MaximGitUser <max5good@mail.ru>
+Date:   Sat Feb 15 13:00:59 2020 +0300
+
+    add .gitignore
