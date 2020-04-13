@@ -1,0 +1,409 @@
+body{
+    background-color: #ACC9C9;
+    overflow: scroll; 
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: #000000c0;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.create_post_button{
+    display: inline-block; 
+    left: 80px;
+    top: 160px;
+    width: 210px;
+    height: 36px;
+    border-radius: 30px;
+    position: fixed;
+    background-image: url("postButton.png");
+    background-position: right;
+    border:none;
+
+    font-family:   Georgia;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+}
+
+.filter_post_button{
+    display: inline-block; 
+    left: 80px;
+    top: 205px;
+    width: 210px;
+    height: 36px;
+    border-radius: 30px;
+    position: fixed;
+    background-image: url("postButton.png");
+    background-position: right;
+    border:none;
+
+    font-family:   Georgia;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+}
+
+.mypage_button{
+    display: inline-block; 
+    left: 80px;
+    top: 80px;
+    width: 150px;
+    height: 36px;
+    border-radius: 30px;
+    position: fixed;
+    background-image: url("mypage.png");
+    background-position: right;
+    border:none;
+
+    font-family:  Georgia;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #2BEF56;
+}
+
+.main_page_link{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 128px;
+    top: 4px;
+}
+
+.logo{
+    position: absolute;
+    width: 93%;
+    height: 66%;
+    left: 1070px;
+    top: 6px;
+    mix-blend-mode: overlay;
+}
+
+.avatar_container{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 89px;
+    top: 6px;
+}
+
+.user_page_link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.main_avatar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.connect_status{
+
+    position: relative;
+
+    left: 50px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+color: #2BEF56;
+
+}
+
+.filter_container{
+    top: 15%;
+    width: 15%;  
+    right: 85%;
+    position: relative;
+    background-color: F1F1F1;
+}
+
+.filter_button{
+    display: inline-block;
+    left: 56px;
+    top: 205px;
+    width: 240px;
+    height: 39px;
+    position: fixed;
+    background-image: url("filter.png");
+    background-position: right;
+    border:none;
+}
+
+.filter_pic{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu_avatar_container{
+    width: 63px;
+    height: 63px;
+    padding-left: 19px;
+    padding-top: 19px;
+    float: left;
+}
+
+
+.hashtag_button{
+    width: 242px;
+    height: 43px;
+    background-image: url(hashtags.png);
+    border: none;
+    margin-left: 45px;
+}
+
+
+.post_button{
+    width: 105px;
+    height: 28px;
+    margin-top: 4px;
+    margin-left: 614px;
+    background-image: url("bleat.png");
+    border:none;
+
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.new_post_button{
+    width: 242px;
+    height: 40px;
+    margin-left: 26px;
+    display: inline-block;
+    margin-top: 42px;
+
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.posts_feed{
+    background-color: rgba(0,0,0,0);
+    padding-left: 350px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.post{
+    background: #C4C4C4;
+    position: relative;
+    width: 680px;
+    margin-bottom: 20px;
+    height: fit-content;
+    border: 3px solid #097E7E;
+    border-radius: 26px;
+    margin-top: 25px;
+    
+}
+
+.user_avatar_container{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    padding-left: 18px;
+    padding-top: 6px;
+}
+
+.horizontal-line{
+    width:100%;
+    float:right;  
+    background:#097E7E;
+    border:none;
+    height:3px;
+    }
+
+.nickname{
+    position: relative;
+
+    left: -15px;
+    top: 70px;
+    width: fit-content;
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+}
+
+.username{
+    position: relative;
+
+    left: 110px;
+    top: 14px;
+    width: fit-content;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0;
+    color: #000000;
+}
+
+.date{
+    position: relative;
+    left: 120px;
+    top: 24px;
+    width: fit-content;
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0;
+    color: #097E7E;
+}
+
+.post_text{
+    position: relative;
+
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.content{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.content_img{
+    height: fit-content; 
+    position: relative;
+    margin-left: -15px;
+    width: 680px;
+    height: 100%;
+}
+
+.icons_container{
+    width: 100%;
+    height: fit-content; 
+    position: relative;
+    margin-top: 2px;
+    margin-block-end: 2px;
+}
+
+.like{
+    width: 23px;
+    height: 23px;
+    margin-left: 45px;
+    margin-right: 230px;
+}
+
+.comment{
+    width: 23px;
+    height: 23px;
+}
+
+.hashtags{
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #5363EE;
+}
+
+.load_more_button{
+   
+    margin-left: 550px; 
+    width: 210px;
+    height: 36px;
+    border-radius: 30px;
+    background-position: right;
+    background-image: url("postButton.png");
+    border: none;
+
+    font-family:   Georgia;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+    
+}
+.left_content{
+    position: relative;
+    left: 50px;
+}
+.center_content{
+    position: relative;
+}
+.right_content{
+    position: relative;
+    right: 50px;
+}
+
+footer{
+
+    
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+
+    margin-top: 20px;
+    background-color: #000000c0;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px; 
+    
+
+    color: white;
+}
+
+
