@@ -1,0 +1,2 @@
+SELECT * FROM up_schema.post
+ORDER BY CREATED_AT;

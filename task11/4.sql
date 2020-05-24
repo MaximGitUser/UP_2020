@@ -1,0 +1,1 @@
+SELECT DISTINCT name FROM up_schema.user;
